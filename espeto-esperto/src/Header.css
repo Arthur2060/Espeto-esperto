@@ -1,0 +1,55 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  border-bottom: solid rgb(45, 45, 45) 2px;
+  box-shadow: 0 10px 10px rgba(45, 45, 45, 0.301);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.item {
+  border-top: solid rgb(45, 45, 45);
+  border-bottom: solid rgb(45, 45, 45);
+  padding: 10px 20px;
+  transition: ease 0.2s background-color;
+}
+
+.item:hover {
+  background-color: rgba(0, 0, 0, 0.26);
+}
+
+.item:first-child {
+  border-radius: 10px 0 0 10px;
+  border-left: solid rgb(45, 45, 45);
+}
+
+.item:last-child {
+  border-radius: 0 10px 10px 0;
+  border-right: solid rgb(45, 45, 45);
+}
+
+.item a {
+  color: rgb(45, 45, 45);
+  text-decoration: none;
+}
+
+#login-cadastro-conta button{
+  background-color: rgb(45, 45, 45);
+  color: #fff;
+  border: solid rgb(45, 45, 45);
+  transition: ease 0.2s all;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 2px;
+  font-size: larger;
+}
+
+#login-cadastro-conta button:hover {
+  background-color: #fff;
+  color: rgb(45, 45, 45);
+}
