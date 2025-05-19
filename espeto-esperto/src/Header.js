@@ -3,7 +3,7 @@ import './Header.css';
 function Header() {
   return (
       <header className="App-header">
-        <img src="" id="logo" alt="Insira aqui a logo"/>
+        <img src="Logo.png" id="logo" alt="Insira aqui a logo"/>
 
         <nav>
           <ul>

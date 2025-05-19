@@ -12,6 +12,11 @@ nav ul {
   display: flex;
 }
 
+#logo {
+  max-height: 9vh;
+  border-radius: 50%;
+}
+
 .item {
   border-top: solid rgb(45, 45, 45);
   border-bottom: solid rgb(45, 45, 45);

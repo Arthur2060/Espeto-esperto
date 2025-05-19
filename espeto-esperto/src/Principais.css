@@ -14,9 +14,15 @@ ul {
     align-items: center;
     padding: 10px;
     border-radius: 10px;
+    transition: ease 0.6s all;
 }
 
 .prato img {
-    width: 20vw;
+    max-width: 20vw;
     border-radius: 10px;
+}
+
+.prato:hover {
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.308);
+    transform: scale(1.1);
 }
