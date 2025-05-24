@@ -1,9 +1,13 @@
+#pratos-principais {
+    height: 50vh;
+}
+
 ul {
     margin: 10px 0;
     list-style: none;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: start;
 }
 
 .prato {

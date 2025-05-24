@@ -3,7 +3,7 @@ import Prato from './Prato'
 
 function Principais() {
     return (
-        <div>
+        <div id="pratos-principais">
             <ul>
                 <Prato 
                         imagen="Prato principal.png"
@@ -35,7 +35,6 @@ function Principais() {
                             "ingrediente 3",
                         ]} />
             </ul>
-            <hr />
         </div>
     )
 }
