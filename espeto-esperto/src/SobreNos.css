@@ -9,10 +9,19 @@
 }
 
 #SobreNos p {
-    width: 20vw;
+    width: 35vw;
     font-size: 30px;
 }
 
 #SobreNos img {
+    height: 30vh;
+    border-radius: 20px;
+}
+
+#SobreNos img::before {
+    content: "dawdad";
+    position: relative;
+    background-color: #fff;
     height: 40vh;
+    width: 100%;
 }
